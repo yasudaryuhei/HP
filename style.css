@@ -1,0 +1,258 @@
+/* ヘッダーの画像まで */
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 20px;
+}
+.btn01{
+  padding: 20px 50px;
+  color: #fff;
+  background-color: #e95f5f;
+}
+.btn02{
+  padding: 20px 50px;
+  color: #fff;
+  background-color: #29a54f;
+}
+nav ul {
+  max-width: 1200px;
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.header-img{
+  max-width: 2000px;
+  margin-bottom: 30px;
+}
+.header-img img{
+  width: 100%;
+}
+h2{
+  margin-bottom: 20px;
+}
+/* sectionのcontent01まで*/
+.content01{
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.flex-box{
+  display: flex;
+  justify-content: space-between;
+}
+.text-p{
+  align-self: center;
+}
+/* sectionのcontent02まで*/
+.content02{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flex-box02{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.flex-box02 p{
+  margin-top: 20px;
+}
+/* sectionのcontent03まで*/
+.content03{
+  max-width: 1200px;
+  margin: 50px auto;
+  background-color: #CCCCCC;
+  padding: 40px;
+}
+.flex-box03{
+  display: flex;
+}
+.flex-box03 img{
+  margin-right: 20px;
+}
+/* sectionのcontent04まで*/
+.content04{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flex-box04{
+  display: flex;
+  justify-content: space-between;
+}
+h3{
+  margin: 20px 0;
+}
+/* sectionのcontent05まで*/
+.content05{
+  max-width: 2000px;
+  background-color: #CCCCCC;
+}
+.flex-box05{
+  max-width: 1200px;
+  padding: 70px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.box1{
+  padding: 50px ;
+  background-color: #fff;
+  text-align: center;
+  width: 45%;
+}
+.box2{
+  padding: 50px ;
+  background-color: #fff;
+  text-align: center;
+  width: 45%;
+}
+.btn03{
+  padding: 20px 100px;
+  color: #fff;
+  background-color: #e95f5f;
+}
+.btn04{
+  padding: 20px 100px;
+  color: #fff;
+  background-color: #29a54f;
+}
+.box1 h2{
+  padding-bottom: 30px;
+}
+.box2 h2{
+  padding-bottom: 30px;
+}
+/* sectionのcontent06まで*/
+.content06{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.text-center{
+  text-align: center;
+  margin-top: 500px;
+  margin-bottom: 100px;
+}
+.text-center h4{
+  margin-bottom: 5px;
+}
+.text-center p{
+  margin-bottom: 5px;
+}
+.content07{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.content07 ul{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #d9d7d7;
+  border-bottom: 1px solid #d9d7d7;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.list-block{
+  display: block;
+}
+footer{
+  text-align: center;
+  margin: 30px 0;
+}
+@media screen and (max-width:767px){
+  /* sectionのcontent01まで*/
+  h1{
+    font-size: 20px;
+  }
+  .header{
+    margin: 30px 0;
+  }
+  .btn01{
+    padding: 0;
+  }
+  .btn02{
+    padding: 0;
+  }
+  h2{
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+  }
+  h3{
+    font-size: 12px;
+    padding: 0 10px;
+  }
+  p{
+    font-size: 12px;
+    padding: 0 10px;
+  }
+  .flex-box{
+    display: block;
+  }
+  .flex-box img{
+    width: 100%;
+    padding: 0 10px;
+  }
+  .text-p{
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+  .flex-box02{
+    display: block;
+  }
+  .flex-box02 img{
+    width: 100%;
+    padding: 0 10px;
+  }
+  .flex-box03{
+    display: block;
+  }
+  .text-p h2{
+    padding: 0;
+  }
+  .text-p p{
+    padding: 0;
+  }
+  .flex-box03 img{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .flex-box04{
+    display: block;
+  }
+  .flex-box04 img{
+    width: 100%;
+    padding: 0 10px;
+  }
+  .flex-box05{
+    display: block;
+  }
+  .box1{
+    width: 100%;
+    padding: 30px 5px;
+    margin-bottom: 50px;
+  }
+  .box2{
+    width: 100%;
+    padding: 30px 5px;
+  }
+  .box1 h2{
+    padding-bottom: 15px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .box2 h2{
+    padding-bottom: 15px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .btn03{
+    padding: 5px 20px;
+  }
+  .btn04{
+    padding: 5px 20px;
+  }
+  .content07 ul{
+    display: block;
+    text-align: center;
+  }
+}
