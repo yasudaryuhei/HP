@@ -364,7 +364,7 @@ footer{
   height: 216px;
   flex: 1;
   width: 100%;
-  max-width: 410px;
+  max-width: 1500px;
   background: #eaedf2;
   font-size: 18px;
 }
@@ -375,6 +375,7 @@ footer{
     height: 200px;
     flex: inherit;
     font-size: 15px;
+    text-align-last: center;
   }
 }
 .Form-Btn {
@@ -400,4 +401,10 @@ footer{
     width: 160px;
     font-size: 16px;
   }
+}
+.Form-left{
+  margin-left: 40px;
+}
+.Form-left a{
+  color: #29a54f;
 }
