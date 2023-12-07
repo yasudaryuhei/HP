@@ -269,7 +269,6 @@ footer{
   }
 }
 .Form-Item {
-  border-top: 1px solid #ddd;
   padding-top: 24px;
   padding-bottom: 24px;
   width: 100%;
@@ -285,8 +284,8 @@ footer{
     flex-wrap: wrap;
   }
 }
-.Form-Item:nth-child(5) {
-  border-bottom: 1px solid #ddd;
+.border{
+  border-top: 1px solid #ddd;
 }
 .Form-Item-Label {
   width: 100%;
@@ -379,7 +378,8 @@ footer{
   }
 }
 .Form-Btn {
-  border-radius: 6px;
+  text-align: center;
+  border: 6px;
   margin-top: 32px;
   margin-left: auto;
   margin-right: auto;
@@ -388,7 +388,7 @@ footer{
   width: 280px;
   display: block;
   letter-spacing: 0.05em;
-  background: #5bc8ac;
+  background-color: #29a54f;
   color: #fff;
   font-weight: bold;
   font-size: 20px;
