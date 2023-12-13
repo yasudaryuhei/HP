@@ -58,6 +58,12 @@ h2{
 .flex-box02 p{
   margin-top: 20px;
 }
+.card-box{
+  width: 48%;
+}
+.card-box img{
+  width: 100%;
+}
 /* sectionのcontent03まで*/
 .content03{
   max-width: 1200px;
@@ -82,6 +88,12 @@ h2{
 }
 h3{
   margin: 20px 0;
+}
+.card-box02{
+  width: 32%;
+}
+.card-box02 img{
+  width: 100%;
 }
 /* sectionのcontent05まで*/
 .content05{
@@ -108,12 +120,14 @@ h3{
   width: 45%;
 }
 .btn03{
-  padding: 20px 100px;
+  width: 200px;
+  padding: 20px 0;
   color: #fff;
   background-color: #e95f5f;
 }
 .btn04{
-  padding: 20px 100px;
+  width: 200px;
+  padding: 20px 0;
   color: #fff;
   background-color: #29a54f;
 }
@@ -223,6 +237,12 @@ footer{
     width: 100%;
     padding: 0 10px;
   }
+  .card-box02{
+    width: 100%;
+  }
+  .card-box02 img{
+    width: 100%;
+  }
   .flex-box05{
     display: block;
   }
@@ -230,6 +250,12 @@ footer{
     width: 100%;
     padding: 30px 5px;
     margin-bottom: 50px;
+  }
+  .card-box{
+    width: 100%;
+  }
+  .card-box img{
+    width: 100%;
   }
   .box2{
     width: 100%;
